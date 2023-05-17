@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>high volume</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/05a3bf1e83.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body class="container-fluid">
+        <header> 
+            <h1><img id="homeimg" src="immagini/logo.png" alt="logo"></h1>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid" id="navbarSupportedContent">
+
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar"> 
+    
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+                        <li class="nav-item">
+                          <a class="nav-link nonunderline" aria-current="page" href="index.html">home</a>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle nonunderline" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">community</a>
+                          <div class="dropdown-menu" aria-labelledby="navabarDropdown">
+                            <a class="dropdown-item" href="connect.html">playlists</a>
+                            <a class="dropdown-item" href="connect.html">top charts</a>
+                            <a class="dropdown-item" href="connect.html">comments</a>
+                            <a class="dropdown-item" href="connect.html">connect</a>
+                          </div>
+                        </li>
+    
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle active nonunderline" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">about</a>
+                          <div class="dropdown-menu" aria-labelledby="navabarDropdown">
+                            <a class="dropdown-item" href="about.html">about us/FAQ</a>
+                            <a class="dropdown-item" href="documentazione.html">documentazione</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2 rounded-pill" type="search" placeholder="Find playlist" aria-label="Search">
+                      <a class="btn btn-link rounded-pill" href="signup.html" type="submit">sign up</a>
+                    </form>
+              </div>
+            </nav>
+        </header>
+
+        <section class="sectiondocumentazione">
+            <h2 class="title">ABSTRACT</h2>
+            <p>Uno degli argomenti che unisce maggiormente le persone è la musica, per questo nasce HighVolume, un sito con l’intento di portare le persone a socializzare attraverso canzoni e artisti preferiti. HighVolume si rivolge ai giovani amanti della musica, che cercano nuovi e facili metodi per relazionarsi. Al momento esistono più che altro siti di ricerca di canzoni, con poche attività di interazione e connessione. Pertanto, HighVolume cerca di colmare questa mancanza grazie a diversi strumenti di condivisione (quali commenti e riproduzione simultanea tra amici) per trovare punti in comune tra persone e creare nuove amicizie. </p>
+        </section>
+
+        <section class="sectiondocumentazione">
+          <h2 class="title">BENCHMARKING</h2>
+            <h3 class="subtitle">Obiettivo</h3>
+                <p>permettere il relazionarsi con persone conosciute e sconosciute attraverso una facile esperienza musicale. </p>
+            <h3 class="subtitle">Target</h3>
+                <p>giovani di fascia 15-30 anni.</p>
+            <h3 class="subtitle">Competitors</h3>
+                <p>-	Spotify: l’applicazione ha un alto livello di completezza, permette di cercare canzoni, artisti e playlist, caricare i propri brani e creare playlist proprie o condivise, inoltre offre playlist già strutturate e diversificate in base ai generi musicali. Tuttavia, manca l’aspetto “social” che permette agli utenti di interagire facilmente tra di loro, ad esempio, non è presente una sezione “messaggi/commenti” ed è difficile trovare e seguire i propri amici sull’app, in più, le playlist sono carenti in alcuni aspetti, non è, infatti, possibile generare playlist con brani casuali o filtrare playlist già ideate secondo i propri gusti.<br/> 
+                    -	Kiwi: l’applicazione ha una bella idea di fondo ma pecca nell’esecuzione, una volta al giorno gli utenti possono condividere l’ultima canzone che hanno ascoltato e mettere like/dislike, ma mancano una sezione commenti, la possibilità di vedere playlist/altre canzoni riprodotte dagli amici e condividere più di una canzone al giorno. 
+                    </p>
+        </section>
+
+        <section class="sectiondocumentazione">
+          <h2 class="title">STRUTTURA E LAYOUT</h2>
+          <h3 class="subtitle">Architettura</h3>
+              <img  src="immagini/architetturasito.png" alt="strutturasito" style="width: 40%;">
+
+          <h3 class="subtitle" id="wireframe">Wireframe</h3>
+              <img  src="immagini/home.png" alt="homepage" style="width: 40%;"><p>1.HOME</p>
+              <img  src="immagini/community.png" alt="communitypage" style="width: 40%;"><p>2.COMMUNITY</p>
+              <img  src="immagini/about.png" alt="aboutpage" style="width: 40%;"><p>3.ABOUT</p>
+              <img  src="immagini/signup.png" alt="signuppage" style="width: 40%;"><p>4.SIGNUP</p>
+        </section>
+
+        <section class="sectiondocumentazione">
+          <h3 class="subtitle">Look and Feel</h3>
+                <p>Il sito si basa solamente su tre pagine, ognuna con una funzione, per facilitare l’attività dell’utente. Una pagina home di presentazione e descrizione delle interazioni possibili per permettere ai nuovi utenti di comprendere come navigare sul sito; una pagina community per interagire e relazionarsi con altri utenti; infine, una pagina about per saperne di più sul sito e chiedere informazioni. 
+                    La font utilizzata è “Poppins”, sans serif e tondeggiante; una font semplice che riprende lo stile del logo, anch’esso dalle curve morbide quasi a dare l’idea delle onde sonore.
+                    Il colore di sfondo è il nero per facilitare la leggibilità ed evitare il disturbo luminoso in un eventuale utilizzo serale del sito. Lo sfondo e gli altri colori scelti (fucsia-viola, azzurro, verde) servono a immergere l’utente nelle luci stroboscopiche di una discoteca virtuale. 
+                    </p>
+        </section>
+
+        <section class="sectiondocumentazione">
+          <h3 class="subtitle">Linguaggi</h3>
+                <p>
+                    Html <br/>
+                    Css
+                </p>
+          <h3 class="subtitle">Strumenti</h3>
+                   <p>
+                    Bootstrap <br/>
+                    Github <br/>
+                    Google fonts <br/>
+                    Google immagini <br/>
+                    Cooltext <br/>
+                    Paint <br/>
+                    Canva <br/>
+                    Vimeo <br/>
+                    Spotify <br/>
+                    Google analytics
+
+                   </p> 
+                  
+        </section>
+
+        <section class="sectiondocumentazione">
+          <h2 class="title">BACKGROUND</h2>
+          <p>I competitors presi in esame hanno diversi scopi, entrambi inerenti alla musica, ma nessuno è veramente indicabile come “social” incentrato su questo campo, inoltre presentano alcune lacune:
+              Spotify è abbastanza chiaro e semplice da utilizzare in merito a ricerca di canzoni e artisti; a contrario, non è facile trovare gli account dei propri amici sull’app in quanto esistono diversi nomi utente uguali e non vi è la possibilità di collegare i propri dispositivi per trovarsi a vicenda. 
+              Kiwi, invece, non permette molte interazioni e non cattura sufficientemente l’attenzione degli utenti, infatti, nonostante il buon livello di valutazione (4,5 stelle), gli utenti si dimostrano insoddisfatti delle performance dell’app e hanno diverse migliorie da proporre. 
+              </p>
+        </section>
+
+        <section class="sectiondocumentazione">
+          <h2 class="title">OBIETTIVO</h2>
+            <p>L’obiettivo del progetto è creare un sito, e in seguito un social network, basato interamente sulla musica, in cui gli utenti possano condividere idee, sensazioni, opinioni, gusti e tanto altro in campo musicale e connettersi alla rete per interagire con amici, ma anche con nuove persone dagli stessi gusti musicali, grazie ai diversi strumenti offerti. </p>
+        </section>
+
+        <section class="sectiondocumentazione">
+          <h2 class="title">TARGET</h2>
+          <p>Il target principale del progetto sono i giovani di un’età compresa tra 15 e 30 anni, raggiungibili attraverso altri social quali Instagram e Whatsapp; tuttavia, il sito volge a rendere partecipi anche gli over 30, grazie alla possibilità di creare Community legate a vecchi brani musicali. In questo caso, il target 30+ verrebbe raggiunto tramite Facebook. </p>
+
+        </section>
+
+        <section class="sectiondocumentazione">
+          <h2 class="title">PROMOZIONE</h2>
+          <p>Il sito verrà pubblicizzato tramite messaggi Whatsapp e storie/post su Instagram. </p>
+        </section>
+
+        <section class="sectiondocumentazione">
+          <h2 class="title">VALUTAZIONE</h2>
+          <p>La valutazione sarà basata sulle interazioni ottenute sui social, almeno 250 visualizzazioni al video postato su Instagram; e sulle visite al sito, almeno 50 (controllate tramite Google analytics). </p>
+
+        </section>
+
+            <footer>
+              <div class="row footer">
+                <div class="col-6 col-md-4">instagram: @hv.highvolume</div>
+                <div class="col-6 col-md-4">email: hvhighvolume@gmail.com</div>
+                <div class="col-6 col-md-4">phone: 3246847564</div>
+              </div>
+                <p id="designedby">designed by Chiara Galavotti, 2023</p>
+            </footer>
+    </body>
+</html>

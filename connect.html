@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+    <head>
+        <title>high volume</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/05a3bf1e83.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body class="container-fluid">
+        <header> 
+            <h1><img id="homeimg" src="immagini/logo.png" alt="logo"></h1>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid" id="navbarSupportedContent">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+      
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar"> 
+      
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      
+                          <li class="nav-item">
+                            <a class="nav-link nonunderline" aria-current="page" href="index.html">home</a>
+                          </li>
+      
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active nonunderline" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">community</a>
+                            <div class="dropdown-menu" aria-labelledby="navabarDropdown">
+                              <a class="dropdown-item" href="connect.html">playlists</a>
+                              <a class="dropdown-item" href="connect.html">top charts</a>
+                              <a class="dropdown-item" href="connect.html">comments</a>
+                              <a class="dropdown-item" href="connect.html">connect</a>
+                            </div>
+                          </li>
+      
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nonunderline" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">about</a>
+                            <div class="dropdown-menu" aria-labelledby="navabarDropdown">
+                              <a class="dropdown-item" href="about.html">about us/FAQ</a>
+                              <a class="dropdown-item" href="documentazione.html">documentazione</a>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 rounded-pill" type="search" placeholder="Find playlist" aria-label="Search">
+                        <a class="btn btn-link rounded-pill" href="signup.html" type="submit">sign up</a>
+                      </form>
+                </div>
+            </nav>
+        </header>
+            <section>
+                <h2>Join the High Volume community</h2>
+            </section>
+
+            <section>
+              <p>create or find a playlist</p>
+              <div class="mb-3">
+               <label for="formFile" class="form-label">cover</label>
+               <input class="text-control" type="file" id="formFile" placeholder="choose playlist cover">
+             </div>
+             
+             <form class="row g-3">
+               <div class="col-12">
+                 <label for="inputName" class="form-label">name</label>
+                 <input type="text" class="text-control" id="inputName" placeholder="enter playlist name">
+               </div>
+
+               <div class="col-12 dropdown">
+                 <label for="inputSong" class="form-label dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">songs</label>
+                  <div class="dropdown-menu" aria-labelledby="Dropdown">
+                  <a class="dropdown-item" href="#">find song</a>
+                  <a class="dropdown-item" href="#">find artist</a>
+                </div>
+                 <input type="text" class="text-control" id="inputSong" placeholder="select songs or specific artists">
+               </div>
+
+
+               <div class="col-12">
+                 <label for="inputGenre" class="form-label dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">genres</label>
+                 <div class="dropdown-menu" aria-labelledby="Dropdown">
+                  <a class="dropdown-item" href="#">one genre</a>
+                  <a class="dropdown-item" href="#">mixed genres</a>
+                </div>
+                 <input type="text" class="text-control" id="inputGenre" placeholder="select one or more genres">
+               </div>
+               <div class="col-12">
+                 <div class="form-check">
+                   <input class="form-check-input" type="checkbox" id="gridCheck">
+                   <label class="form-check-label" for="gridCheck">
+                     randomize songs
+                   </label>
+                 </div>
+               </div>
+               <div class="col-12">
+                 <button type="submit" class="btn btn-link rounded-pill">create playlist</button>
+               </div>
+             </form>
+           </section>
+
+            <section>
+              <div> 
+                <div id="card" class="row row-cols-1 row-cols-sm-3 g-3">
+                  <!--prima card-->
+                  <div class="col p-5 m-3">
+                    <div class="card">
+                      <img src="immagini/2.png" class="card-img-top" alt="pop music">
+                      <div class="card-body">
+                        <h3 class="card-title">New: pop</h3>
+                        <p class="card-text">Recently released pop music</p>
+                        <a target="_blank" href="https://open.spotify.com/genre/section0JQ5IMCbQBLC0DY87kyeG2" class="btn btn-primary">open on spotify</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--seconda card-->
+                  <div class="col p-5 m-3">
+                    <div class="card">
+                      <img src="immagini/1.png" class="card-img-top" alt="dance music">
+                      <div class="card-body">
+                        <h3 class="card-title">New: dance</h3>
+                        <p class="card-text">Recently released dance music</p>
+                        <a target="_blank" href="https://open.spotify.com/genre/section0JQ5IMCbQBLi0hmWMsAF4P" class="btn btn-primary">open on spotify</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--terza card-->
+                  <div class="col p-5 m-3">
+                    <div class="card">
+                      <img src="immagini/3.png" class="card-img-top" alt="rock music">
+                      <div class="card-body">
+                        <h3 class="card-title">New: rock</h3>
+                        <p class="card-text">Recently released rock music</p>
+                        <a target="_blank" href="https://open.spotify.com/genre/section0JQ5IMCbQBLwIRTksARIaS" class="btn btn-primary">open on spotify</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <p><a target="_blank" class="link" href="https://open.spotify.com/search">see other playlists</a></p>
+            </section>
+
+            <section>
+              <p>see global top charts and your personal weekly top chart</p>
+
+              <div class="row charts">
+                <div class="col-md-6 list-group">
+                  <a target="_blank" href="https://www.billboard.com/charts/hot-100/" class="list-group-item list-group-item-action item1">global top charts</a>
+                
+                  <a href="#" class="list-group-item list-group-item-action item">Kill Bill-SZA</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Last Night-Morgan Wallen</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Flowers-Miley Cyrus</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Princess Diana-Ice Spice & Nicki Minaj</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Ella Baila Sola-Eslabon Armando X Peso Pluma</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Creepin'-Metro Boomin, The Weeknd & 21Savage</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Calm Down-Rema & Selena Gomez</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Die For You-The Weeknd & Ariana Grande</a>
+                </div>
+
+                <div class="col-md-6 list-group">
+                  <a href="" class="list-group-item list-group-item-action item1">personal top chart</a>
+                
+                  <a href="#" class="list-group-item list-group-item-action item">Love No More-Loud Luxury, anders</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Midnight Rain-Taylor Swift</a>
+                  <a href="#" class="list-group-item list-group-item-action item">I Told You So-Lvly, Willow</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Boy's a Liar Pt.2-PinkPantheress, Ice Spice</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Drugs From Amsterdam-Mau P</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Steal My Clothes-Kito, Bea Miller, LP Giobbi</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Party 4 U-Charli XCX</a>
+                  <a href="#" class="list-group-item list-group-item-action item">Spin Back x Collide Remix-Kevoxx</a>
+                </div>
+              </div>
+                
+            </section>
+
+            <section class="row sectioncomment">
+                  <div class="form floating mx-auto p-2" style="width: 50%;">
+                    <label for="floatingTextarea2">Comments</label>
+                    <textarea class="form-control comments" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                  </div>
+            </section>
+
+            <section class="container-fluid sectionsongs">
+              <p>see what your friends are listening to right now</p>
+              <div class="table-responsive">
+                <table class="table table-dark table-striped-columns">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">song</th>
+                      <th scope="col">playlist</th>
+                      <th scope="col">handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Love no more</td>
+                      <td>feelgood</td>
+                      <td>@clare</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"></th>
+                      <td><img src="immagini/imgsong.png" style="border-radius: 5%; width: 70%;" alt="LovenoMore by LoudLuxury"></td>
+                      <td><img class="imgcover" src="immagini/imgsongcover.png" style="width: 40%; border-radius: 5%;" alt="playlistcoverFeelgood"></td>
+                      <td><a target="_blank" class="link" href="https://open.spotify.com/playlist/73KA3XVLtIE53CXmi8OLT2">see playlist</a></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Drugs from Amsterdam</td>
+                      <td>NightDrive</td>
+                      <td>@Marcello</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"></th>
+                      <td><img src="immagini/imgsong2.png" style="border-radius: 5%; width: 70%;" alt="DrugsfromAmsterdam by MauP"></td>
+                      <td><img class="imgcover" src="immagini/Imgsongcover2.png" style="width: 40%; border-radius: 5%;" alt="playlistcoverNIghtDrive"></td>
+                      <td><a target="_blank" class="link" href="https://open.spotify.com/playlist/2fjY7Rzr9vl5Eu0KnENfeT?si=s0O_B2XtSDGNogQvAXrh7w&utm_source=whatsapp&nd=1">see playlist</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+              <p><a class="link" href="signup.html">sign up and connect your device</a></p>
+
+            </section>
+
+            <section id="sectioncommunity">
+              <p>create a community to make shared playlists and listen to songs simultaneously</p>
+              <form class="row gy-2 gx-3 align-items-center">
+                <div class="col-auto">
+                  <label class="visually-hidden" for="autoSizingInput"></label>
+                  <input type="text" class="form-control" id="autoSizingInput" placeholder="choose community name">
+                </div>
+                <div class="col-auto">
+                  <label class="visually-hidden" for="autoSizingInputGroup"></label>
+                  <div class="input-group">
+                    <div class="input-group-text" id="inputcommunity">@</div>
+                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="add your friends username">
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <label class="visually-hidden" for="autoSizingSelect">Find people</label>
+                  <select class="form-select" id="autoSizingSelect">
+                    <option selected>Interact globally</option>
+                    <option value="1">Open maps</option>
+                  </select>
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-primary" id="buttoncommunity">create community</button>
+                </div>
+              </form>
+              <p id="getacode">connect your device and get a code, share your code or join your friend's to listen to music together</p>
+              <form class="row align-items-center">
+                <div class="col-md-4">
+                  <button type="submit" class="btn btn-primary" id="buttonconnect">get a code</button>
+                </div>
+                <div class="col-md-4">
+                  <label class="visually-hidden" for="autoSizingCode"></label>
+                <input type="text" class="form-control" id="autoSizingCode" placeholder="enter code">
+                </div>
+                <div class="col-md-4">
+                  <a target="_blank" class="link" href="#">can't connect?</a>
+                </div>
+              </form>  
+            </section>
+
+            <footer>
+              <div class="row footer">
+                <div class="col-6 col-md-4">instagram: @hv.highvolume</div>
+                <div class="col-6 col-md-4">email: hvhighvolume@gmail.com</div>
+                <div class="col-6 col-md-4">phone: 3246847564</div>
+              </div>
+                <p id="designedby">designed by Chiara Galavotti, 2023</p>
+            </footer>
+    </body>
+</html>
